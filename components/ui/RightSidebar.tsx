@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import BankCard from './BankCard';
-import { LucideFileSpreadsheet } from 'lucide-react';
 
 const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
   return (
